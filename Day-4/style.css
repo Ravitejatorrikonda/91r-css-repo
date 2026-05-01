@@ -1,0 +1,17 @@
+.container{
+    width: 300px;
+    height: 300px;
+    /* border: 2px solid; */
+    position: relative;
+}
+img{
+    width: 100%;
+}
+.container h3{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+  margin: 0px;
+}
