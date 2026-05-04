@@ -1,0 +1,13 @@
+.container{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.child-1{
+    /* border: 2px solid green; */
+    display: flex;
+    gap: 20px;
+}
+.child-2{
+    /* border: 2px solid green; */
+}
