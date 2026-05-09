@@ -1,0 +1,46 @@
+/* .container p:nth-last-child(3){
+    color: red;
+} */
+
+/* input:focus{
+    outline: 2px solid red;
+    border: none;
+} */
+
+/* p::first-letter{
+   color: red; 
+   font-size: 40px; */
+
+   /* height: 300px; */
+/* }
+p::first-line{
+    color:blue;
+}
+
+p::selection{
+    color: goldenrod;
+    background-color: brown;
+} */
+
+/* li::marker{
+    content: '♥ ';
+} */
+
+/* .after::after{
+    content: ' there';
+}
+.before::before{
+content:'Hello ';
+} */
+
+/* input{
+    color: red;
+    font-size: 30px;
+} */
+
+
+input::placeholder{
+    color: red;
+    /* height: 30px; */
+    font-size: 30px;
+}
