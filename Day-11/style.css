@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html{
+font-size: 20px;
+} */
+
+/* 20*16=320 */
+body{
+    font-size: 20px;
+}
+
+.container{
+ width: 10em;
+ height: 20rem;
+ border: 2px solid red;
+}
