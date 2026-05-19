@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+   border: 2px solid red;
+   display: flex;
+   justify-content: space-between;
+   background-color: lightgray; 
+}
+.child-1{
+    background-color: brown;
+}
+.child-2{
+    background-color: blue;
+}
+.child-3{
+    background-color: pink;
+}
+.child-4{
+    background-color: green;
+}
+.child{
+    color: white;
+    padding: 20px;
+}
+
+@media screen and (width <= 500px) {
+    .container i{
+        display: block;
+    }
+    
+    .child{
+        display: none;
+    }
+    
+    #checkbox:checked ~.child{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+i{
+    font-size: 4rem;
+    display: none;
+}
+#checkbox{
+    display: none;
+}
+
